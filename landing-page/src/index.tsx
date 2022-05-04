@@ -75,11 +75,16 @@ function App() {
                                     <Link
                                         display={["none", "none", "block"]}
                                         href="https://kovan.interep.link"
+                                        sx={{ ":hover": { "text-decoration": "none" } }}
                                         isExternal
                                     >
                                         <Button colorScheme="primary">Launch app</Button>
                                     </Link>
-                                    <Link href="https://docs.interep.link" isExternal>
+                                    <Link
+                                        href="https://docs.interep.link"
+                                        sx={{ ":hover": { "text-decoration": "none" } }}
+                                        isExternal
+                                    >
                                         <Button variant="outline">Read documentation</Button>
                                     </Link>
                                 </Stack>
@@ -323,6 +328,7 @@ function App() {
 
                                 <Link
                                     href="https://docs.google.com/forms/d/e/1FAIpQLSdMKSIL-3RBriGqA_v-tJhNJOCciQEX7bwFvOW7ptWeDDhjpQ/viewform"
+                                    sx={{ ":hover": { "text-decoration": "none" } }}
                                     isExternal
                                 >
                                     <Button colorScheme="primary">Share your thoughts</Button>
