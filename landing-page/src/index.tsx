@@ -154,7 +154,7 @@ function App() {
 
                                     <Text color="background.300">
                                         Allow your users to mint an NFT, apply for a loan, cast a vote, fund a project,
-                                        or join a web 3.0 social community anonymously. What will your team spin up?
+                                        or join a Web 3.0 social community anonymously. What will your team spin up?
                                     </Text>
                                 </VStack>
 
@@ -208,7 +208,7 @@ function App() {
                                         <Link href="https://docs.interep.link/api#reputation-service" isExternal>
                                             REST APIs
                                         </Link>{" "}
-                                        to interact with our off-chain groups and a{" "}
+                                        to interact with our groups and a{" "}
                                         <Link href="https://docs.interep.link/api#subgraph" isExternal>
                                             subgraph
                                         </Link>{" "}
@@ -226,7 +226,7 @@ function App() {
                                         <Link href="https://github.com/interep-project/contracts" isExternal>
                                             smart contract
                                         </Link>{" "}
-                                        to manage decentralized groups and verify zero-knowledge proofs on-chain.
+                                        to verify zero-knowledge proofs on-chain.
                                     </Text>
                                 </VStack>
                             </VStack>
@@ -274,7 +274,7 @@ function App() {
 
                                 <Text color="background.300">
                                     When users prove their identity on your platform, give them the option to choose
-                                    from a growing list of Interep groups based on Web 2.0 providers and Web 3.0 assets.
+                                    from a growing list of Interep groups based on Web 2.0 providers.
                                 </Text>
                             </VStack>
 
